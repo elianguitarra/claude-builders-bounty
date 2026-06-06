@@ -23,7 +23,7 @@ The CLI returns structured Markdown with:
 
 ## GitHub Action
 
-`.github/workflows/claude-review.yml` comments the generated review on new or updated PRs. It uses the built-in `GITHUB_TOKEN` with read content and write pull request permissions.
+`examples/github-actions/claude-review.yml` is an optional workflow users can copy into `.github/workflows/`. It comments the generated review on new or updated PRs and uses the built-in `GITHUB_TOKEN` with read content and write pull request permissions.
 
 ## Claude Code Sub-Agent
 
